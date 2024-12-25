@@ -1,7 +1,37 @@
-# Vue 3 + Vite
+# Tic Tac Toe App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple Tic Tac Toe game built with Vue.js. This application showcases the power of Vue for creating interactive and dynamic user interfaces.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Player vs Player**: Play against another person locally.
+- **Dynamic UI**: Updates the board and game status in real-time.
+- **Responsive Design**: Optimized for desktop and mobile devices.
+
+
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/piehostHQ/tic-tac-toe
+    cd vue-tic-tac-toe
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Run the app**:
+    ```bash
+    npm run dev
+    ```
+
+4. **Open the app**:
+    Navigate to `http://localhost:5173` in your browser.
+
+## Usage
+
+- Click on a square to make a move.
+- The game alternates turns between "X" and "O".
+- The first player to align three symbols in a row, column, or diagonal wins.
